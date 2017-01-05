@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About and Settings</title>
+	<meta charset="utf-8">
+
+
+  <link rel="stylesheet" type="text/css" media="screen, projection" href="main.css" />
+  <link rel="stylesheet" href="font-awesome.min.css">
+    <style>
+      body {
+        min-width:370px;
+        overflow-x:hidden;
+      }
+
+      img {
+        margin:5px;
+        border:2px solid black;
+        vertical-align:middle;
+        width:75px;
+        height:75px;
+      }
+    </style>
+
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <!--script src="popup.js"></script-->
+  </head>
+  <body>
+  <div class="page">
+
+		jAccount Login Helper <span style="font-size:8pt;"> Ver. 0.3.0</font></span></br>
+    <hr/>
+    <div class="input-container">
+    <section id="input-style">
+        <label for="user"><i class="fa fa-user"></i></label>
+        <input name="user" id="user" placeholder="jAccount Username" type=text class="input-style-input" autocomplete="off" spellcheck="false" autocorrect="off">
+    </section>
+
+    <section id="input-style">
+        <label for="user"><i class="fa fa-key"></i></label>
+        <input name="pass" id="pass" placeholder="jAccount Password" type=password class="input-style-input" autocomplete="off" spellcheck="false" autocorrect="off">
+    </section>
+    </div>
+  </br>
+    <div class="toggle-container">
+      <input class='tgl tgl-skewed' id='autologin' type='checkbox'>
+      <label class='tgl-btn' data-tg-off='Login Manually' data-tg-on='Auto Login' for='autologin'></label>
+    </div>
+
+		</br>
+
+
+
+		<script src="../options.js"></script>
+
+    </div>
+	</body>
+</html>
