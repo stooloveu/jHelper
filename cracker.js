@@ -1,4 +1,3 @@
-﻿//copyright stanleyistool@gmail.com
 var validate_code_image = $("[alt]:first");
 var validate_code_box = document.getElementById("captcha");
 
